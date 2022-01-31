@@ -84,8 +84,8 @@ p.type
 }
 p.letterrunning
 {
-    animation: typewriter 4s steps(44, end) ,
-             blinkTextCursor 500ms step-end infinite ;
+    animation: typewriter 2s steps(44, end), blinkTextCursor 500ms step-end infinite;
+    animation-iteration-count: infinite;
 }
 @keyframes typewriter{
     from{width: 0;}
