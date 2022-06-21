@@ -132,6 +132,75 @@ p.letterrunning
     left: 45%;
 }
 
+.float-icons
+{
+    height: 335px;
+    width: 60px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 33%;
+    right: 50px;
+    transform: translateY(50%);
+}
+.icon-box
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px auto;
+}
+
+.side-text
+{
+    min-width: 0px;
+    height: 100%;
+    background: #009688;
+    margin-right: 5px;
+    line-height: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    transition: 1s;
+}
+.side-icon
+{
+    min-width: 50px;
+    height: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.side-icon .fa-regular
+{
+    font-size: 20px;
+    color: #009688;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.icon-box:hover .side-icon{
+    background: #009688;
+}
+.icon-box:hover .side-icon .fa-regular{
+    background: #fff;
+}
+.icon-box:hover .side-text
+{
+    min-width: 175px;
+}
+
+
+
+
+
+
+
+
+
 .social{
     position: absolute;
     bottom: 0;
